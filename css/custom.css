@@ -1,0 +1,37 @@
+/* 全站星空背景 */
+#web_bg {
+  background-image:
+    linear-gradient(
+      rgba(5, 8, 25, 0.30),
+      rgba(5, 8, 25, 0.45)
+    ),
+    url("/img/home-bg.png") !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
+
+/* 首页文章卡片 */
+#recent-posts > .recent-post-item {
+  background-color: rgba(18, 24, 42, 0.82) !important;
+}
+
+/* 侧边栏卡片 */
+#aside-content .card-widget {
+  background-color: rgba(18, 24, 42, 0.82) !important;
+}
+
+/* 文章及其他页面 */
+#post,
+#page,
+#archive {
+  background-color: rgba(18, 24, 42, 0.82) !important;
+}
+
+/* 手机端兼容 */
+@media (max-width: 768px) {
+  #web_bg {
+    background-attachment: scroll !important;
+  }
+}
